@@ -12,7 +12,6 @@ public class MoveLeft : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         hBModifier = GameObject.FindObjectOfType<HealthBarModifier>();
-        /*StartCoroutine("MakeHimHungry");*/
     }
 	
 	// Update is called once per frame
@@ -22,7 +21,12 @@ public class MoveLeft : MonoBehaviour {
         if (hBModifier.getSpriteIndex() == 4) {
             SceneManager.LoadScene("Game");
         }
-        
+        if (Time.timeSinceLevelLoad > hungerTime) {
+            hungerTime = hungerTime + Time.time;
+            print("CHANGED IT");
+            hBModifier.ChangeHBar(1);
+            
+        }
 
     }
 
@@ -44,17 +48,4 @@ public class MoveLeft : MonoBehaviour {
             SceneManager.LoadScene("Game");
         }
     }
-
-   /* IEnumerator MakeHimHungry() {
-        while (true) {
-            if (hBModifier.getSpriteIndex() == 4) {
-                SceneManager.LoadScene("Game");
-            }
-            
-            yield return new WaitForSeconds(hungerTime);
-            hBModifier.ChangeHBar(1);
-        }
-        
-    }*/
-
 }
