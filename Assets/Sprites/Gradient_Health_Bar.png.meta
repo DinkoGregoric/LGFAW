@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 515264a8c7d172645be6011ddd769d11
-timeCreated: 1493905261
+guid: ea9f0887013b5f74da67bd4d1123c7ff
+timeCreated: 1493911552
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Gradient_Health_Bar_0
+    21300002: Gradient_Health_Bar_1
+    21300004: Gradient_Health_Bar_2
+    21300006: Gradient_Health_Bar_3
+    21300008: Gradient_Health_Bar_4
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -34,13 +39,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 300
+  spritePixelsToUnits: 50
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -92,7 +97,72 @@ TextureImporter:
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Gradient_Health_Bar_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 200
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gradient_Health_Bar_1
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 0
+        width: 200
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gradient_Health_Bar_2
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 0
+        width: 200
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gradient_Health_Bar_3
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 0
+        width: 200
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gradient_Health_Bar_4
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 0
+        width: 200
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
