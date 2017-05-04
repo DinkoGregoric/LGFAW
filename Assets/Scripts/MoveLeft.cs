@@ -9,8 +9,8 @@ public class MoveLeft : MonoBehaviour {
     public float speed = 5f;
     public float hungerTime = 10;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         hBModifier = GameObject.FindObjectOfType<HealthBarModifier>();
     }
 	
@@ -21,12 +21,7 @@ public class MoveLeft : MonoBehaviour {
         if (hBModifier.getSpriteIndex() == 4) {
             SceneManager.LoadScene("Game");
         }
-        if (Time.timeSinceLevelLoad > hungerTime) {
-            hungerTime = hungerTime + Time.time;
-            print("CHANGED IT");
-            hBModifier.ChangeHBar(1);
-            
-        }
+        
 
     }
 

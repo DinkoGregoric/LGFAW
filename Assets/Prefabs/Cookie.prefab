@@ -68,8 +68,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hBModifier: {fileID: 0}
-  speed: 10
-  hungerTime: 20
+  speed: 5
+  hungerTime: 10
 --- !u!212 &212620859376756354
 SpriteRenderer:
   m_ObjectHideFlags: 1
