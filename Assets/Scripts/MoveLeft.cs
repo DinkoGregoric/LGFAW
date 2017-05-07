@@ -18,10 +18,6 @@ public class MoveLeft : MonoBehaviour {
 	void Update () {
         transform.position += Vector3.left * speed * Time.deltaTime;
         
-        if (hBModifier.getSpriteIndex() == 4) {
-            SceneManager.LoadScene("Game");
-        }
-        
 
     }
 
@@ -38,9 +34,5 @@ public class MoveLeft : MonoBehaviour {
                 }
             }
         }   
-
-        if (hBModifier.getSpriteIndex() == 4) {
-            SceneManager.LoadScene("Game");
-        }
     }
 }

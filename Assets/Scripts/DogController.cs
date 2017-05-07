@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class DogController : MonoBehaviour {
 
+    private HealthBarModifier hBModifier;
     private Rigidbody2D dogBody;
     private Animator dogAnimation;
     public float jumpForce = 500f;
@@ -14,12 +15,19 @@ public class DogController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        hBModifier = GameObject.FindObjectOfType<HealthBarModifier>();
         dogBody = GetComponent<Rigidbody2D>();
         dogAnimation = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
+
+
+        if (hBModifier.getSpriteIndex() == 4) {
+            stopCamera();
+        }
+        
 
         print(Time.timeSinceLevelLoad);
 
@@ -42,19 +50,22 @@ public class DogController : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision) {
         if(collision.gameObject.tag == "Obstacle") {
-
-            foreach (SpawnCars spawner in FindObjectsOfType<SpawnCars>()) {
-                spawner.enabled = false;
-            }
-
-            foreach (MoveLeft leftScript in FindObjectsOfType<MoveLeft>()) {
-                leftScript.enabled = false;
-            }
-
-
-            dogAnimation.SetBool("dogHurt", true);
-            dogHurtTimer = Time.time;
+            stopCamera();
         }
+    }
+
+    private void stopCamera() {
+        foreach(SpawnCars spawner in FindObjectsOfType<SpawnCars>()) {
+            spawner.enabled = false;
+        }
+
+        foreach (MoveLeft leftScript in FindObjectsOfType<MoveLeft>()) {
+            leftScript.enabled = false;
+        }
+
+
+        dogAnimation.SetBool("dogHurt", true);
+        dogHurtTimer = Time.time;
     }
 
     
