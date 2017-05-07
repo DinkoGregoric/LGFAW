@@ -29,4 +29,8 @@ public class HurtDoggo : MonoBehaviour {
 
         }
     }
+
+    public void setTime() {
+        lastTime = Time.timeSinceLevelLoad;
+    }
 }

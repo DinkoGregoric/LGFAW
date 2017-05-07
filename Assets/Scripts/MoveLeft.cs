@@ -11,6 +11,7 @@ public class MoveLeft : MonoBehaviour {
     // Use this for initialization
     void Start () {
         hBModifier = GameObject.FindObjectOfType<HealthBarModifier>();
+        
     }
 	
 	// Update is called once per frame
@@ -26,17 +27,17 @@ public class MoveLeft : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision) {
         Destroy(gameObject);
-        
-        if(this.tag == "Poison") {
-            hBModifier.ChangeHBar(1);
-        }
-
-        if (hBModifier.getSpriteIndex() != 0) {
-            if (this.tag == "Consumable") {
-                hBModifier.ChangeHBar(-1);
+        if (collision.gameObject.tag == "Dog") {
+            if (this.tag == "Poison") {
+                hBModifier.ChangeHBar(1);
             }
-        }
-            
+
+            if (hBModifier.getSpriteIndex() != 0) {
+                if (this.tag == "Consumable") {
+                    hBModifier.ChangeHBar(-1);
+                }
+            }
+        }   
 
         if (hBModifier.getSpriteIndex() == 4) {
             SceneManager.LoadScene("Game");

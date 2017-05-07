@@ -200,26 +200,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextSpawn: 40
   carToSpawn: {fileID: 4275856808368430, guid: b5bfb404bafda674fb77381336f59bc1, type: 2}
   spawn_curve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 9
+      value: 100
       inSlope: 0
       outSlope: 0
       tangentMode: 136
     - serializedVersion: 2
-      time: 15
-      value: 9
+      time: 0.25
+      value: 17
+      inSlope: -88
+      outSlope: -88
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.5
+      value: 6
+      inSlope: -17.333332
+      outSlope: -17.333332
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 1
+      value: 2.75
       inSlope: 0
       outSlope: 0
       tangentMode: 136
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
-  curve_seconds: 60
+  curve_seconds: 240
 --- !u!1 &284845956
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,26 +273,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextSpawn: 25
   carToSpawn: {fileID: 4340064187799604, guid: 43da680c580036c499415d1fd8d31947, type: 2}
   spawn_curve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 9
+      value: 45
       inSlope: 0
       outSlope: 0
       tangentMode: 136
     - serializedVersion: 2
-      time: 15
-      value: 9
+      time: 0.25
+      value: 15
+      inSlope: -64
+      outSlope: -64
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.5
+      value: 7
+      inSlope: -17.333334
+      outSlope: -17.333334
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 1
+      value: 2
       inSlope: 0
       outSlope: 0
       tangentMode: 136
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
-  curve_seconds: 60
+  curve_seconds: 240
 --- !u!4 &330269573 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4921322927229270, guid: ab0c2aab33723044ba4bafb03f638300,
@@ -368,26 +394,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextSpawn: 0
   carToSpawn: {fileID: 4668687988953256, guid: 07ec7e129e6480c41a42154f34ef645c, type: 2}
   spawn_curve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 9
+      value: 10.25
       inSlope: 0
       outSlope: 0
       tangentMode: 136
     - serializedVersion: 2
-      time: 15
-      value: 9
+      time: 0.25
+      value: 21
+      inSlope: 49.5
+      outSlope: 49.5
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.5
+      value: 35
+      inSlope: 74.66667
+      outSlope: 74.66667
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 1
+      value: 100
       inSlope: 0
       outSlope: 0
       tangentMode: 136
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
-  curve_seconds: 60
+  curve_seconds: 240
 --- !u!1001 &639424589
 Prefab:
   m_ObjectHideFlags: 0
@@ -546,26 +585,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextSpawn: 51
   carToSpawn: {fileID: 4423174431030510, guid: 9c35077679d2bca4db79b182cb7fc7e7, type: 2}
   spawn_curve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 9
+      value: 50
       inSlope: 0
       outSlope: 0
       tangentMode: 136
     - serializedVersion: 2
-      time: 15
-      value: 9
+      time: 0.25
+      value: 30
+      inSlope: -74
+      outSlope: -74
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.5
+      value: 13
+      inSlope: -36
+      outSlope: -36
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 1
+      value: 3
       inSlope: 0
       outSlope: 0
       tangentMode: 136
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
-  curve_seconds: 60
+  curve_seconds: 240
 --- !u!1 &696217147
 GameObject:
   m_ObjectHideFlags: 0
@@ -593,32 +645,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextSpawn: 15
   carToSpawn: {fileID: 4834288841421674, guid: fb2f68ee58118ea4bb2b5da337e20f8e, type: 2}
   spawn_curve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
-      time: 0.110753275
-      value: 14.992994
+      time: 0
+      value: 10
       inSlope: 0
       outSlope: 0
       tangentMode: 136
     - serializedVersion: 2
-      time: 4.166116
-      value: 11.990055
-      inSlope: -1.2084713
-      outSlope: -1.2084713
-      tangentMode: 0
+      time: 0.25
+      value: 6
+      inSlope: -12
+      outSlope: -12
+      tangentMode: 136
     - serializedVersion: 2
-      time: 13.0110035
-      value: 2.0157905
-      inSlope: -0.31547567
-      outSlope: -0.31547567
-      tangentMode: 0
+      time: 0.5
+      value: 4
+      inSlope: -5.3333335
+      outSlope: -5.3333335
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 1
+      value: 2
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
-  curve_seconds: 60
+  curve_seconds: 240
 --- !u!4 &696217149
 Transform:
   m_ObjectHideFlags: 0
@@ -1078,26 +1137,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextSpawn: 0
   carToSpawn: {fileID: 4017706686178848, guid: 3174ddc465059834385fa48aeb24ad31, type: 2}
   spawn_curve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 9
+      value: 2
       inSlope: 0
       outSlope: 0
       tangentMode: 136
     - serializedVersion: 2
-      time: 15
-      value: 9
+      time: 0.25
+      value: 8
+      inSlope: 48.000004
+      outSlope: 48.000004
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.5
+      value: 45
+      inSlope: 122.666664
+      outSlope: 122.666664
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 1
+      value: 100
       inSlope: 0
       outSlope: 0
       tangentMode: 136
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
-  curve_seconds: 60
+  curve_seconds: 240
 --- !u!1 &1078327204
 GameObject:
   m_ObjectHideFlags: 0
@@ -1234,50 +1306,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextSpawn: 3
   carToSpawn: {fileID: 4113958324088036, guid: b1f1edec058fbad4da937fa29c77d9ff, type: 2}
   spawn_curve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
-      time: -0.3993408
-      value: 3.8059764
+      time: 0.25
+      value: 3.5
       inSlope: 0
       outSlope: 0
       tangentMode: 136
     - serializedVersion: 2
-      time: 0.03469561
-      value: 3.0533066
-      inSlope: -1.1481553
-      outSlope: -1.1481553
+      time: 0.5
+      value: 5.5
+      inSlope: 5.3333335
+      outSlope: 5.3333335
       tangentMode: 136
     - serializedVersion: 2
-      time: 0.60105443
-      value: 2.6573672
-      inSlope: -0.50760275
-      outSlope: -0.50760275
-      tangentMode: 136
-    - serializedVersion: 2
-      time: 1.4133323
-      value: 2.3535068
-      inSlope: -0.5153263
-      outSlope: -0.5153263
-      tangentMode: 136
-    - serializedVersion: 2
-      time: 2.1734455
-      value: 1.8470727
-      inSlope: -0.54529345
-      outSlope: -0.54529345
-      tangentMode: 136
-    - serializedVersion: 2
-      time: 3.0006275
-      value: 1.4879651
+      time: 1
+      value: 7.5
       inSlope: 0
       outSlope: 0
       tangentMode: 136
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
-  curve_seconds: 60
+  curve_seconds: 240
 --- !u!4 &1101413252
 Transform:
   m_ObjectHideFlags: 0
@@ -1557,26 +1612,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextSpawn: 46
   carToSpawn: {fileID: 4319659401415124, guid: 55fc5949e54aeb84f9743ace50f07b08, type: 2}
   spawn_curve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 9
+      value: 60
       inSlope: 0
       outSlope: 0
       tangentMode: 136
     - serializedVersion: 2
-      time: 15
-      value: 9
+      time: 0.25
+      value: 22
+      inSlope: -104.7
+      outSlope: -104.7
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.5
+      value: 7.65
+      inSlope: -22.399992
+      outSlope: -22.399992
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 1
+      value: 3.45
       inSlope: 0
       outSlope: 0
       tangentMode: 136
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
-  curve_seconds: 60
+  curve_seconds: 240
 --- !u!1 &1335758682
 GameObject:
   m_ObjectHideFlags: 0
@@ -1617,6 +1685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextSpawn: 0
   carToSpawn: {fileID: 4071776096177392, guid: 5990431f98e925748a8dd5f6f0e85fdf, type: 2}
   spawn_curve:
     serializedVersion: 2
@@ -1628,15 +1697,27 @@ MonoBehaviour:
       outSlope: 0
       tangentMode: 136
     - serializedVersion: 2
-      time: 15
-      value: 9
+      time: 0.25
+      value: 18
+      inSlope: 36
+      outSlope: 36
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.5
+      value: 27
+      inSlope: 42.666668
+      outSlope: 42.666668
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 1
+      value: 50
       inSlope: 0
       outSlope: 0
       tangentMode: 136
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
-  curve_seconds: 60
+  curve_seconds: 240
 --- !u!1 &1402054453
 GameObject:
   m_ObjectHideFlags: 0
@@ -1677,26 +1758,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextSpawn: 0
   carToSpawn: {fileID: 4649225877143230, guid: 8630a8609f66aba48afb502acaaa2d52, type: 2}
   spawn_curve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 9
+      value: 1.5
       inSlope: 0
       outSlope: 0
       tangentMode: 136
     - serializedVersion: 2
-      time: 15
-      value: 9
+      time: 0.25
+      value: 8
+      inSlope: 52
+      outSlope: 52
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.5
+      value: 30
+      inSlope: 116
+      outSlope: 116
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 1
+      value: 95
       inSlope: 0
       outSlope: 0
       tangentMode: 136
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
-  curve_seconds: 60
+  curve_seconds: 240
 --- !u!1 &1404294459
 GameObject:
   m_ObjectHideFlags: 0
@@ -1737,26 +1831,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextSpawn: 30
   carToSpawn: {fileID: 4691892817916782, guid: 44897afe068c2a24b96d64831e20799c, type: 2}
   spawn_curve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 9
+      value: 100
       inSlope: 0
       outSlope: 0
       tangentMode: 136
     - serializedVersion: 2
-      time: 15
-      value: 9
+      time: 0.25
+      value: 20
+      inSlope: -104
+      outSlope: -104
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.5
+      value: 7
+      inSlope: -17.333334
+      outSlope: -17.333334
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 1
+      value: 3.75
       inSlope: 0
       outSlope: 0
       tangentMode: 136
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
-  curve_seconds: 60
+  curve_seconds: 240
 --- !u!1001 &1416914247
 Prefab:
   m_ObjectHideFlags: 0
@@ -1827,7 +1934,7 @@ GameObject:
   - component: {fileID: 1420807237}
   m_Layer: 0
   m_Name: Doggo
-  m_TagString: Untagged
+  m_TagString: Dog
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2037,6 +2144,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a2fd824ce86b884c99b7fa7a799effd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1527217720
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1527217722}
+  - component: {fileID: 1527217721}
+  m_Layer: 0
+  m_Name: BackgroundChanger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1527217721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1527217720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc6c4eea66b60404493f4ed1a8cca94a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 1657842624}
+--- !u!4 &1527217722
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1527217720}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.6038263, y: -2.0852084, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1594430463
 GameObject:
   m_ObjectHideFlags: 0
@@ -2194,7 +2342,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.73924094, g: 0.79775506, b: 0.8897059, a: 0}
+  m_BackGroundColor: {r: 0.61960787, g: 0.7137255, b: 0.8666667, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -2377,26 +2525,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextSpawn: 0
   carToSpawn: {fileID: 4485514187725194, guid: 5bfb6ec1dad88ba4abc6f8f1e5d9fc45, type: 2}
   spawn_curve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 9
+      value: 8
       inSlope: 0
       outSlope: 0
       tangentMode: 136
     - serializedVersion: 2
-      time: 15
-      value: 9
+      time: 0.25
+      value: 16
+      inSlope: 32
+      outSlope: 32
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.5
+      value: 24
+      inSlope: 42.666668
+      outSlope: 42.666668
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 1
+      value: 100
       inSlope: 0
       outSlope: 0
       tangentMode: 136
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
-  curve_seconds: 60
+  curve_seconds: 240
 --- !u!4 &1895493488 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4921322927229270, guid: ab0c2aab33723044ba4bafb03f638300,
@@ -2429,50 +2590,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextSpawn: 2
   carToSpawn: {fileID: 4302680042026538, guid: 1976b34bb6a4dee4ca2c1a14fc0a15aa, type: 2}
   spawn_curve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 7
+      value: 8
       inSlope: 0
       outSlope: 0
-      tangentMode: 0
+      tangentMode: 136
     - serializedVersion: 2
-      time: 0.8332115
-      value: 6.5
+      time: 0.25
+      value: 6
+      inSlope: -8
+      outSlope: -8
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.5
+      value: 4
+      inSlope: -5.3333335
+      outSlope: -5.3333335
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 1
+      value: 2
       inSlope: 0
       outSlope: 0
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 2.6207533
-      value: 5.3087234
-      inSlope: -0.7367134
-      outSlope: -0.7367134
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 3.3574636
-      value: 5
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 4.697711
-      value: 3
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 6.996485
-      value: 1.5
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
+      tangentMode: 136
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
-  curve_seconds: 60
+  curve_seconds: 240
 --- !u!4 &1927441684
 Transform:
   m_ObjectHideFlags: 0
@@ -2526,26 +2676,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextSpawn: 38
   carToSpawn: {fileID: 4436606359673318, guid: 8bf12cc112b35214a873d77c04273455, type: 2}
   spawn_curve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 9
+      value: 95
       inSlope: 0
       outSlope: 0
       tangentMode: 136
     - serializedVersion: 2
-      time: 15
-      value: 9
+      time: 0.25
+      value: 19
+      inSlope: -88
+      outSlope: -88
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.5
+      value: 8
+      inSlope: -21.333334
+      outSlope: -21.333334
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 1
+      value: 3
       inSlope: 0
       outSlope: 0
       tangentMode: 136
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
-  curve_seconds: 60
+  curve_seconds: 240
 --- !u!4 &2101382628 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4921322927229270, guid: ab0c2aab33723044ba4bafb03f638300,
@@ -2591,23 +2754,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextSpawn: 0
   carToSpawn: {fileID: 4755821819630106, guid: 47792e29a51254340b42c50571473e36, type: 2}
   spawn_curve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 9
+      value: 1.85
       inSlope: 0
       outSlope: 0
       tangentMode: 136
     - serializedVersion: 2
-      time: 15
+      time: 0.25
       value: 9
+      inSlope: 57.2
+      outSlope: 57.2
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.5
+      value: 35
+      inSlope: 121.333336
+      outSlope: 121.333336
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 1
+      value: 100
       inSlope: 0
       outSlope: 0
       tangentMode: 136
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
-  curve_seconds: 60
+  curve_seconds: 240

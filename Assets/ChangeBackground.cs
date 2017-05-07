@@ -22,7 +22,7 @@ public class ChangeBackground : MonoBehaviour {
             camera.backgroundColor = new Color(colorNumberConversion(165), colorNumberConversion(178), colorNumberConversion(199));
         }
 
-        if (Time.timeSinceLevelLoad > 120) {
+        if (Time.timeSinceLevelLoad > 240) {
             camera.backgroundColor = new Color(colorNumberConversion(97), colorNumberConversion(115), colorNumberConversion(144));
         }
     }

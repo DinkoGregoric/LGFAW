@@ -38,6 +38,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4549671675517930}
   - component: {fileID: 61057961766487474}
+  - component: {fileID: 61905959001458606}
   m_Layer: 0
   m_Name: ObstacleCrash
   m_TagString: Obstacle
@@ -65,7 +66,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1628429085314304}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.72, y: -2.68, z: 0}
+  m_LocalPosition: {x: 10.59195, y: -1.3544135, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 4549671675517930}
@@ -135,6 +136,20 @@ BoxCollider2D:
   m_Offset: {x: -1.0228467, y: -0.15766001}
   serializedVersion: 2
   m_Size: {x: 0.5120697, y: 0.5408497}
+--- !u!61 &61905959001458606
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1861134040382854}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.3179555, y: 0.17704368}
+  serializedVersion: 2
+  m_Size: {x: 0.20510992, y: 0.1834321}
 --- !u!114 &114215166005420482
 MonoBehaviour:
   m_ObjectHideFlags: 1

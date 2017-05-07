@@ -4,29 +4,28 @@ using UnityEngine;
 
 public class SpawnCars : MonoBehaviour {
 
-    private float nextSpawn = 0;
+    public float nextSpawn;
     public Transform carToSpawn;
     public AnimationCurve spawn_curve;
-    public float curve_seconds = 60f;
-    private float startTime;
+    public float curve_seconds = 240f;
 
 	// Use this for initialization
 	void Start () {
-        startTime = Time.time;
+        
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (Time.time > nextSpawn) {
+		if (Time.timeSinceLevelLoad > nextSpawn) {
             Instantiate(carToSpawn, transform.position, Quaternion.identity);
 
-            float curve = (Time.time - startTime) / curve_seconds;
+            float curve = (Time.timeSinceLevelLoad) / curve_seconds;
 
             if (curve > 1) {
                 curve = 1;
             }
 
-            nextSpawn = Time.time + spawn_curve.Evaluate(curve);
+            nextSpawn = Time.timeSinceLevelLoad + spawn_curve.Evaluate(curve);
 
             //nextSpawn = Time.time + spawnRate + Random.Range(0, randomDelay);
         }
