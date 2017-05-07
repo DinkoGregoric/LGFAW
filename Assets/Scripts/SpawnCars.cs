@@ -30,5 +30,6 @@ public class SpawnCars : MonoBehaviour {
 
             //nextSpawn = Time.time + spawnRate + Random.Range(0, randomDelay);
         }
-	}
+
+    }
 }

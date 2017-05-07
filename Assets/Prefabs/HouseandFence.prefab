@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4569888141300412}
   - component: {fileID: 212044322994538860}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: house_grey_front
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36,7 +36,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4599972847325288}
   - component: {fileID: 212359618269742838}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: fence (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52,7 +52,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4917508048755050}
   - component: {fileID: 212136068026569980}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: fence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,7 +69,7 @@ GameObject:
   - component: {fileID: 4340064187799604}
   - component: {fileID: 114778686812706024}
   - component: {fileID: 61902770022081774}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HouseandFence
   m_TagString: Untagged
   m_Icon: {fileID: 0}

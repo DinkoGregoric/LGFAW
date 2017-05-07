@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212224069887639938}
   - component: {fileID: 114922084409646236}
   - component: {fileID: 61032966166227646}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: darkcloud2
   m_TagString: Untagged
   m_Icon: {fileID: 0}

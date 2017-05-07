@@ -10,17 +10,18 @@ public class DogController : MonoBehaviour {
     public float jumpForce = 500f;
     private float dogHurtTimer = -1;
 
-    private Camera cam;
+    private Camera camera;
 
 	// Use this for initialization
 	void Start () {
         dogBody = GetComponent<Rigidbody2D>();
         dogAnimation = GetComponent<Animator>();
-        cam = GetComponent<Camera>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
+
+        print(Time.timeSinceLevelLoad);
 
         if(dogHurtTimer == -1) {
             if (dogBody.velocity.y == 0) {
@@ -37,8 +38,7 @@ public class DogController : MonoBehaviour {
             
         }
 
-        
-	}
+    }
 
     private void OnCollisionEnter2D(Collision2D collision) {
         if(collision.gameObject.tag == "Obstacle") {
