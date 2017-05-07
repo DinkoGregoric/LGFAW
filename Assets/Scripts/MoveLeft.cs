@@ -7,7 +7,6 @@ public class MoveLeft : MonoBehaviour {
 
     public HealthBarModifier hBModifier;
     public float speed = 5f;
-    public float hungerTime = 10;
 
     // Use this for initialization
     void Start () {
