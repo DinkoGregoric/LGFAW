@@ -160,6 +160,126 @@ Transform:
   m_PrefabParentObject: {fileID: 4921322927229270, guid: ab0c2aab33723044ba4bafb03f638300,
     type: 2}
   m_PrefabInternal: {fileID: 1416914247}
+--- !u!1 &271992574
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 271992575}
+  - component: {fileID: 271992576}
+  m_Layer: 0
+  m_Name: Darkcloud4Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &271992575
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 271992574}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 16.95, y: 3.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 420474012}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &271992576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 271992574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carToSpawn: {fileID: 4275856808368430, guid: b5bfb404bafda674fb77381336f59bc1, type: 2}
+  spawn_curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 9
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 15
+      value: 9
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  curve_seconds: 60
+--- !u!1 &284845956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 284845957}
+  - component: {fileID: 284845958}
+  m_Layer: 0
+  m_Name: HouseFenceSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &284845957
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 284845956}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 14.94, y: 1.17, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 420474012}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &284845958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 284845956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carToSpawn: {fileID: 4340064187799604, guid: 43da680c580036c499415d1fd8d31947, type: 2}
+  spawn_curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 9
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 15
+      value: 9
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  curve_seconds: 60
 --- !u!4 &330269573 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4921322927229270, guid: ab0c2aab33723044ba4bafb03f638300,
@@ -193,10 +313,81 @@ Transform:
   - {fileID: 696217149}
   - {fileID: 1927441684}
   - {fileID: 1101413252}
-  - {fileID: 660420127}
+  - {fileID: 1335758683}
+  - {fileID: 1841145254}
+  - {fileID: 619985344}
+  - {fileID: 1404294460}
+  - {fileID: 271992575}
+  - {fileID: 1312876557}
+  - {fileID: 2080466485}
+  - {fileID: 284845957}
+  - {fileID: 1402054454}
+  - {fileID: 1063363147}
+  - {fileID: 2129812652}
+  - {fileID: 687696546}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &619985343
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 619985344}
+  - component: {fileID: 619985345}
+  m_Layer: 0
+  m_Name: Cloud8Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &619985344
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 619985343}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 19.09, y: 3.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 420474012}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &619985345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 619985343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carToSpawn: {fileID: 4668687988953256, guid: 07ec7e129e6480c41a42154f34ef645c, type: 2}
+  spawn_curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 9
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 15
+      value: 9
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  curve_seconds: 60
 --- !u!1001 &639424589
 Prefab:
   m_ObjectHideFlags: 0
@@ -251,49 +442,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ab0c2aab33723044ba4bafb03f638300, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &660420126
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 660420127}
-  - component: {fileID: 660420128}
-  m_Layer: 0
-  m_Name: BackgroundSpawn
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &660420127
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 660420126}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.41, y: -0.03, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 420474012}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &660420128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 660420126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carToSpawn: {fileID: 4042655710673002, guid: f019b4d8d9b88864ea431bb0d083d760, type: 2}
-  spawnRate: 2.5
-  randomDelay: 0
 --- !u!1001 &669649998
 Prefab:
   m_ObjectHideFlags: 0
@@ -358,6 +506,66 @@ Transform:
   m_PrefabParentObject: {fileID: 4921322927229270, guid: ab0c2aab33723044ba4bafb03f638300,
     type: 2}
   m_PrefabInternal: {fileID: 1271517148}
+--- !u!1 &687696545
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 687696546}
+  - component: {fileID: 687696547}
+  m_Layer: 0
+  m_Name: Tree29Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &687696546
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 687696545}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 16.87, y: -2.41, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 420474012}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &687696547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 687696545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carToSpawn: {fileID: 4423174431030510, guid: 9c35077679d2bca4db79b182cb7fc7e7, type: 2}
+  spawn_curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 9
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 15
+      value: 9
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  curve_seconds: 60
 --- !u!1 &696217147
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,8 +594,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   carToSpawn: {fileID: 4834288841421674, guid: fb2f68ee58118ea4bb2b5da337e20f8e, type: 2}
-  spawnRate: 5
-  randomDelay: 10
+  spawn_curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0.110753275
+      value: 14.992994
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 4.166116
+      value: 11.990055
+      inSlope: -1.2084713
+      outSlope: -1.2084713
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 13.0110035
+      value: 2.0157905
+      inSlope: -0.31547567
+      outSlope: -0.31547567
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  curve_seconds: 60
 --- !u!4 &696217149
 Transform:
   m_ObjectHideFlags: 0
@@ -395,7 +626,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 696217147}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.56, y: -2.7154486, z: 0}
+  m_LocalPosition: {x: 11.43, y: -2.57, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 420474012}
@@ -611,7 +842,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &905854429
 Prefab:
@@ -731,6 +962,66 @@ Transform:
   m_PrefabParentObject: {fileID: 4921322927229270, guid: ab0c2aab33723044ba4bafb03f638300,
     type: 2}
   m_PrefabInternal: {fileID: 639424589}
+--- !u!1 &1063363146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1063363147}
+  - component: {fileID: 1063363148}
+  m_Layer: 0
+  m_Name: Tree14Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1063363147
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1063363146}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 27.33, y: -2.41, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 420474012}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1063363148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1063363146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carToSpawn: {fileID: 4017706686178848, guid: 3174ddc465059834385fa48aeb24ad31, type: 2}
+  spawn_curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 9
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 15
+      value: 9
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  curve_seconds: 60
 --- !u!1 &1078327204
 GameObject:
   m_ObjectHideFlags: 0
@@ -819,7 +1110,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -868,8 +1159,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   carToSpawn: {fileID: 4113958324088036, guid: b1f1edec058fbad4da937fa29c77d9ff, type: 2}
-  spawnRate: 2.5
-  randomDelay: 10
+  spawn_curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: -0.3993408
+      value: 3.8059764
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.03469561
+      value: 3.0533066
+      inSlope: -1.1481553
+      outSlope: -1.1481553
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.60105443
+      value: 2.6573672
+      inSlope: -0.50760275
+      outSlope: -0.50760275
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 1.4133323
+      value: 2.3535068
+      inSlope: -0.5153263
+      outSlope: -0.5153263
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 2.1734455
+      value: 1.8470727
+      inSlope: -0.54529345
+      outSlope: -0.54529345
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 3.0006275
+      value: 1.4879651
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  curve_seconds: 60
 --- !u!4 &1101413252
 Transform:
   m_ObjectHideFlags: 0
@@ -877,7 +1209,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1101413250}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.67, y: -2.6954486, z: 0}
+  m_LocalPosition: {x: 10.83, y: -2.88, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 420474012}
@@ -1109,6 +1441,246 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ab0c2aab33723044ba4bafb03f638300, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1312876556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1312876557}
+  - component: {fileID: 1312876558}
+  m_Layer: 0
+  m_Name: Darkcloud5Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1312876557
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1312876556}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.79, y: 2.67, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 420474012}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1312876558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1312876556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carToSpawn: {fileID: 4319659401415124, guid: 55fc5949e54aeb84f9743ace50f07b08, type: 2}
+  spawn_curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 9
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 15
+      value: 9
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  curve_seconds: 60
+--- !u!1 &1335758682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1335758683}
+  - component: {fileID: 1335758684}
+  m_Layer: 0
+  m_Name: Cloud1Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1335758683
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1335758682}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 14.94, y: 3.03, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 420474012}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1335758684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1335758682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carToSpawn: {fileID: 4071776096177392, guid: 5990431f98e925748a8dd5f6f0e85fdf, type: 2}
+  spawn_curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 9
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 15
+      value: 9
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  curve_seconds: 60
+--- !u!1 &1402054453
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1402054454}
+  - component: {fileID: 1402054455}
+  m_Layer: 0
+  m_Name: Tree03Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1402054454
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1402054453}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.74, y: -2.03, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 420474012}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1402054455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1402054453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carToSpawn: {fileID: 4649225877143230, guid: 8630a8609f66aba48afb502acaaa2d52, type: 2}
+  spawn_curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 9
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 15
+      value: 9
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  curve_seconds: 60
+--- !u!1 &1404294459
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1404294460}
+  - component: {fileID: 1404294461}
+  m_Layer: 0
+  m_Name: Darkcloud2Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1404294460
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1404294459}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 14.94, y: 3.53, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 420474012}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1404294461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1404294459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carToSpawn: {fileID: 4691892817916782, guid: 44897afe068c2a24b96d64831e20799c, type: 2}
+  spawn_curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 9
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 15
+      value: 9
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  curve_seconds: 60
 --- !u!1001 &1416914247
 Prefab:
   m_ObjectHideFlags: 0
@@ -1376,7 +1948,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1488262122
 MonoBehaviour:
@@ -1546,7 +2118,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.73924094, g: 0.79775506, b: 0.8897059, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -1689,53 +2261,71 @@ Transform:
   m_PrefabParentObject: {fileID: 4921322927229270, guid: ab0c2aab33723044ba4bafb03f638300,
     type: 2}
   m_PrefabInternal: {fileID: 905854429}
+--- !u!1 &1841145253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1841145254}
+  - component: {fileID: 1841145255}
+  m_Layer: 0
+  m_Name: Cloud4Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1841145254
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1841145253}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 12.36, y: 1.74, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 420474012}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1841145255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1841145253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carToSpawn: {fileID: 4485514187725194, guid: 5bfb6ec1dad88ba4abc6f8f1e5d9fc45, type: 2}
+  spawn_curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 9
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 15
+      value: 9
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  curve_seconds: 60
 --- !u!4 &1895493488 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4921322927229270, guid: ab0c2aab33723044ba4bafb03f638300,
     type: 2}
   m_PrefabInternal: {fileID: 1781421879}
---- !u!1001 &1920510252
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4042655710673002, guid: f019b4d8d9b88864ea431bb0d083d760, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 1.3884574
-      objectReference: {fileID: 0}
-    - target: {fileID: 4042655710673002, guid: f019b4d8d9b88864ea431bb0d083d760, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0.035448637
-      objectReference: {fileID: 0}
-    - target: {fileID: 4042655710673002, guid: f019b4d8d9b88864ea431bb0d083d760, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4042655710673002, guid: f019b4d8d9b88864ea431bb0d083d760, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4042655710673002, guid: f019b4d8d9b88864ea431bb0d083d760, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4042655710673002, guid: f019b4d8d9b88864ea431bb0d083d760, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4042655710673002, guid: f019b4d8d9b88864ea431bb0d083d760, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4042655710673002, guid: f019b4d8d9b88864ea431bb0d083d760, type: 2}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: f019b4d8d9b88864ea431bb0d083d760, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1927441682
 GameObject:
   m_ObjectHideFlags: 0
@@ -1764,8 +2354,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   carToSpawn: {fileID: 4302680042026538, guid: 1976b34bb6a4dee4ca2c1a14fc0a15aa, type: 2}
-  spawnRate: 10
-  randomDelay: 10
+  spawn_curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 7
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.8332115
+      value: 6.5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 2.6207533
+      value: 5.3087234
+      inSlope: -0.7367134
+      outSlope: -0.7367134
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 3.3574636
+      value: 5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 4.697711
+      value: 3
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 6.996485
+      value: 1.5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  curve_seconds: 60
 --- !u!4 &1927441684
 Transform:
   m_ObjectHideFlags: 0
@@ -1773,14 +2404,134 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1927441682}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21.09, y: -2.6954486, z: 0}
+  m_LocalPosition: {x: 19.54, y: -2.6954486, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 420474012}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2080466484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2080466485}
+  - component: {fileID: 2080466486}
+  m_Layer: 0
+  m_Name: Darkcloud8Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2080466485
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2080466484}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 14.94, y: 2.24, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 420474012}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2080466486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2080466484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carToSpawn: {fileID: 4436606359673318, guid: 8bf12cc112b35214a873d77c04273455, type: 2}
+  spawn_curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 9
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 15
+      value: 9
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  curve_seconds: 60
 --- !u!4 &2101382628 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4921322927229270, guid: ab0c2aab33723044ba4bafb03f638300,
     type: 2}
   m_PrefabInternal: {fileID: 1144307550}
+--- !u!1 &2129812651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2129812652}
+  - component: {fileID: 2129812653}
+  m_Layer: 0
+  m_Name: Tree21Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2129812652
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2129812651}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.5, y: -1.7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 420474012}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2129812653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2129812651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1d48dbd38383846beb4efd8a624563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carToSpawn: {fileID: 4755821819630106, guid: 47792e29a51254340b42c50571473e36, type: 2}
+  spawn_curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 9
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 15
+      value: 9
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  curve_seconds: 60

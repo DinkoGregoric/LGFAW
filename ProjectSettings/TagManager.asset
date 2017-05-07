@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Consumable
   - Poison
+  - Obstacle
   layers:
   - Default
   - TransparentFX
@@ -40,6 +41,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: back_layer
+    uniqueID: 2117241435
+    locked: 0
+  - name: middle_layer
+    uniqueID: 2473546695
+    locked: 0
+  - name: frontish_layer
+    uniqueID: 2746983305
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
