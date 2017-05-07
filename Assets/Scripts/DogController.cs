@@ -22,16 +22,16 @@ public class DogController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
-
-        if (hBModifier.getSpriteIndex() == 4) {
-            stopCamera();
-        }
         
-
         print(Time.timeSinceLevelLoad);
 
         if(dogHurtTimer == -1) {
+
+            if (hBModifier.getSpriteIndex() == 4) {
+                print("PENIS");
+                stopCamera();
+            }
+
             if (dogBody.velocity.y == 0) {
                 if (Input.GetKeyDown(KeyCode.Space)) {
                     dogBody.AddForce(transform.up * jumpForce);
