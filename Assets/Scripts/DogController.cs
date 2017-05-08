@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class DogController : MonoBehaviour {
 
@@ -12,6 +13,8 @@ public class DogController : MonoBehaviour {
     public AudioSource faint;
     public float jumpForce = 500f;
     private float dogHurtTimer = -1;
+    private Text num_score;
+    private Text[] num_scores;
 
     private Camera camera;
 
@@ -20,7 +23,14 @@ public class DogController : MonoBehaviour {
         hBModifier = GameObject.FindObjectOfType<HealthBarModifier>();
         dogBody = GetComponent<Rigidbody2D>();
         dogAnimation = GetComponent<Animator>();
-	}
+
+        num_scores = FindObjectsOfType<Text>();
+        foreach (Text text in num_scores) {
+            if (text.name.Equals("NumberScore")) {
+                num_score = text;
+            }
+        }
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -30,6 +40,7 @@ public class DogController : MonoBehaviour {
             if (hBModifier.getSpriteIndex() == 4) {
                 stopCamera();
                 faint.Play();
+                setScore();
             }
 
             if (dogBody.velocity.y == 0) {
@@ -53,6 +64,8 @@ public class DogController : MonoBehaviour {
         if(collision.gameObject.tag == "Obstacle") {
             stopCamera();
             faint.Play();
+            setScore();
+
         }
     }
 
@@ -68,6 +81,15 @@ public class DogController : MonoBehaviour {
 
         dogAnimation.SetBool("dogHurt", true);
         dogHurtTimer = Time.time;
+    }
+
+    private void setScore() {
+        int currentHighScore = PlayerPrefs.GetInt("HighScore", 0);
+        int game_score = int.Parse(num_score.text);
+
+        if (game_score > currentHighScore) {
+            PlayerPrefs.SetInt("HighScore", game_score);
+        }
     }
 
     
