@@ -11,7 +11,7 @@ public class MoveLeft : MonoBehaviour {
     public AudioSource bad;
     public Text score;
     public Text[] scores;
-    private static int numScore = 0;
+    public static int numScore = 0;
     public HealthBarModifier hBModifier;
     public float speed = 5f;
 
@@ -40,8 +40,6 @@ public class MoveLeft : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         transform.position += Vector3.left * speed * Time.deltaTime;
-        
-
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {

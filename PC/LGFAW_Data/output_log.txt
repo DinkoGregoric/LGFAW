@@ -23,3 +23,26 @@ Platform assembly: C:\Users\Dinko\Unity Projects\LGFAW\PC\LGFAW_Data\Managed\Sys
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
+<RI> Initialized touch support.
+The referenced script on this Behaviour (Game Object 'Canvas') is missing!
+ 
+(Filename:  Line: 1754)
+
+UnloadTime: 1.400886 ms
+Music Player Awake 1168
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.220337 ms
+Music Player Awake 1702
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 643.
+Total: 0.648690 ms (FindLiveObjects: 0.069925 ms CreateObjectMapping: 0.093629 ms MarkObjects: 0.465777 ms  DeleteObjects: 0.014222 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 3af0 -> priority: 1 
+  Thread -> id: 4104 -> priority: 1 

@@ -35,16 +35,21 @@ public class DogController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            Application.Quit();
+        }
+
         if(dogHurtTimer == -1) {
 
             if (hBModifier.getSpriteIndex() == 4) {
                 stopCamera();
                 faint.Play();
                 setScore();
+                MoveLeft.numScore = 0;
             }
 
             if (dogBody.velocity.y == 0) {
-                if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) {
+                if (Input.GetKeyDown(KeyCode.Space)) {
                     dogBody.AddForce(transform.up * jumpForce);
                     jump.Play();
                 }
@@ -65,6 +70,7 @@ public class DogController : MonoBehaviour {
             stopCamera();
             faint.Play();
             setScore();
+            MoveLeft.numScore = 0;
 
         }
     }
@@ -90,6 +96,7 @@ public class DogController : MonoBehaviour {
         if (game_score > currentHighScore) {
             PlayerPrefs.SetInt("HighScore", game_score);
         }
+        
     }
 
     
