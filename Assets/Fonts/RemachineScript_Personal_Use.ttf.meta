@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f08716d826af47444affa887c409d74b
+timeCreated: 1494237131
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Remachine Script Personal Use
+  fontNames:
+  - Remachine Script Personal Use
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -42,7 +42,7 @@ public class DogController : MonoBehaviour {
             dogAnimation.SetFloat("vertVelocity", Mathf.Abs(dogBody.velocity.y));
         } else {
             if(Time.time > dogHurtTimer + 1.5) {
-                SceneManager.LoadScene("Game");
+                SceneManager.LoadScene("End_screen");
             }
             
         }
