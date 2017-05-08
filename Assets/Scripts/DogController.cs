@@ -8,6 +8,8 @@ public class DogController : MonoBehaviour {
     private HealthBarModifier hBModifier;
     private Rigidbody2D dogBody;
     private Animator dogAnimation;
+    public AudioSource jump;
+    public AudioSource faint;
     public float jumpForce = 500f;
     private float dogHurtTimer = -1;
 
@@ -22,25 +24,24 @@ public class DogController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        
-        print(Time.timeSinceLevelLoad);
 
         if(dogHurtTimer == -1) {
 
             if (hBModifier.getSpriteIndex() == 4) {
-                print("PENIS");
                 stopCamera();
+                faint.Play();
             }
 
             if (dogBody.velocity.y == 0) {
                 if (Input.GetKeyDown(KeyCode.Space)) {
                     dogBody.AddForce(transform.up * jumpForce);
+                    jump.Play();
                 }
             }
 
             dogAnimation.SetFloat("vertVelocity", Mathf.Abs(dogBody.velocity.y));
         } else {
-            if(Time.time > dogHurtTimer + 1) {
+            if(Time.time > dogHurtTimer + 1.5) {
                 SceneManager.LoadScene("Game");
             }
             
@@ -51,6 +52,7 @@ public class DogController : MonoBehaviour {
     private void OnCollisionEnter2D(Collision2D collision) {
         if(collision.gameObject.tag == "Obstacle") {
             stopCamera();
+            faint.Play();
         }
     }
 
