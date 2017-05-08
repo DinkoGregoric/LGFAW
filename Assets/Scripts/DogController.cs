@@ -44,7 +44,7 @@ public class DogController : MonoBehaviour {
             }
 
             if (dogBody.velocity.y == 0) {
-                if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) {
+                if (Input.GetKeyDown(KeyCode.Space)) {
                     dogBody.AddForce(transform.up * jumpForce);
                     jump.Play();
                 }
